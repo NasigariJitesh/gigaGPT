@@ -24,7 +24,7 @@ init_std: 0.014
 
 # run params
 out_dir: model_dir
-dataset: /path/to/openwebtext # replace this with the correct absolute path before running
+dataset: /data/openwebtext # replace this with the correct absolute path before running
 batch_size: 1080
 sequence_length: 2048
 num_steps: 116223
@@ -35,7 +35,7 @@ adam_epsilon: 1.0e-9
 backend: "CSX"
 precision_opt_level: 1
 mount_dirs:
-  - /path/to/code/location
-  - /path/to/data/location
+  - /
+  - /data
 python_paths:
-  - /path/to/code/location
+  - /

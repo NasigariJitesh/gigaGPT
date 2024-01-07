@@ -1,0 +1,11 @@
+{
+    "Initialization": [
+        null,
+        {
+            "weight_initialization": [
+                20.2359315,
+                {}
+            ]
+        }
+    ]
+}
